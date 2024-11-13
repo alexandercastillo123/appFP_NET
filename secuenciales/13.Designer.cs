@@ -1,6 +1,6 @@
 ﻿namespace appFP_NET.secuenciales
 {
-    partial class _07
+    partial class _13
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txtperimetro = new TextBox();
-            txtarea = new TextBox();
-            lblperimetro = new Label();
-            lblarea = new Label();
+            txthipo = new TextBox();
+            lblhipo = new Label();
             txtbase = new TextBox();
             txtaltura = new TextBox();
             buttonCalcular = new Button();
@@ -39,67 +37,48 @@
             lblaltura = new Label();
             SuspendLayout();
             // 
-            // txtperimetro
+            // txthipo
             // 
-            txtperimetro.Location = new Point(163, 219);
-            txtperimetro.Margin = new Padding(3, 4, 3, 4);
-            txtperimetro.Name = "txtperimetro";
-            txtperimetro.ReadOnly = true;
-            txtperimetro.Size = new Size(102, 27);
-            txtperimetro.TabIndex = 51;
+            txthipo.Location = new Point(210, 186);
+            txthipo.Margin = new Padding(3, 4, 3, 4);
+            txthipo.Name = "txthipo";
+            txthipo.ReadOnly = true;
+            txthipo.Size = new Size(102, 27);
+            txthipo.TabIndex = 21;
             // 
-            // txtarea
+            // lblhipo
             // 
-            txtarea.Location = new Point(163, 163);
-            txtarea.Margin = new Padding(3, 4, 3, 4);
-            txtarea.Name = "txtarea";
-            txtarea.ReadOnly = true;
-            txtarea.Size = new Size(102, 27);
-            txtarea.TabIndex = 50;
-            // 
-            // lblperimetro
-            // 
-            lblperimetro.AutoSize = true;
-            lblperimetro.Font = new Font("Segoe UI Black", 9F);
-            lblperimetro.Location = new Point(48, 222);
-            lblperimetro.Name = "lblperimetro";
-            lblperimetro.Size = new Size(84, 20);
-            lblperimetro.TabIndex = 52;
-            lblperimetro.Text = "Perímetro";
-            // 
-            // lblarea
-            // 
-            lblarea.AutoSize = true;
-            lblarea.Font = new Font("Segoe UI Black", 9F);
-            lblarea.Location = new Point(48, 166);
-            lblarea.Name = "lblarea";
-            lblarea.Size = new Size(43, 20);
-            lblarea.TabIndex = 49;
-            lblarea.Text = "Area";
+            lblhipo.AutoSize = true;
+            lblhipo.Font = new Font("Segoe UI Black", 9F);
+            lblhipo.Location = new Point(53, 189);
+            lblhipo.Name = "lblhipo";
+            lblhipo.Size = new Size(107, 20);
+            lblhipo.TabIndex = 22;
+            lblhipo.Text = "Hipotennusa:";
             // 
             // txtbase
             // 
-            txtbase.Location = new Point(163, 105);
+            txtbase.Location = new Point(209, 122);
             txtbase.Margin = new Padding(3, 4, 3, 4);
             txtbase.Name = "txtbase";
             txtbase.Size = new Size(102, 27);
-            txtbase.TabIndex = 46;
+            txtbase.TabIndex = 18;
             // 
             // txtaltura
             // 
-            txtaltura.Location = new Point(163, 52);
+            txtaltura.Location = new Point(209, 58);
             txtaltura.Margin = new Padding(3, 4, 3, 4);
             txtaltura.Name = "txtaltura";
             txtaltura.Size = new Size(102, 27);
-            txtaltura.TabIndex = 45;
+            txtaltura.TabIndex = 17;
             // 
             // buttonCalcular
             // 
-            buttonCalcular.Location = new Point(119, 297);
+            buttonCalcular.Location = new Point(143, 272);
             buttonCalcular.Margin = new Padding(3, 4, 3, 4);
             buttonCalcular.Name = "buttonCalcular";
             buttonCalcular.Size = new Size(86, 31);
-            buttonCalcular.TabIndex = 47;
+            buttonCalcular.TabIndex = 19;
             buttonCalcular.Text = "C&alcular";
             buttonCalcular.UseVisualStyleBackColor = true;
             buttonCalcular.Click += buttonCalcular_Click;
@@ -108,49 +87,44 @@
             // 
             lblbase.AutoSize = true;
             lblbase.Font = new Font("Segoe UI Black", 9F);
-            lblbase.Location = new Point(48, 108);
+            lblbase.Location = new Point(52, 125);
             lblbase.Name = "lblbase";
-            lblbase.Size = new Size(42, 20);
-            lblbase.TabIndex = 48;
-            lblbase.Text = "Base";
+            lblbase.Size = new Size(47, 20);
+            lblbase.TabIndex = 20;
+            lblbase.Text = "Base:";
             // 
             // lblaltura
             // 
             lblaltura.AutoSize = true;
             lblaltura.Font = new Font("Segoe UI Black", 9F);
-            lblaltura.Location = new Point(48, 55);
+            lblaltura.Location = new Point(52, 61);
             lblaltura.Name = "lblaltura";
-            lblaltura.Size = new Size(55, 20);
-            lblaltura.TabIndex = 44;
-            lblaltura.Text = "Altura";
+            lblaltura.Size = new Size(60, 20);
+            lblaltura.TabIndex = 16;
+            lblaltura.Text = "Altura:";
             // 
-            // _07
+            // _13
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(328, 396);
-            Controls.Add(txtperimetro);
-            Controls.Add(txtarea);
-            Controls.Add(lblperimetro);
-            Controls.Add(lblarea);
+            ClientSize = new Size(380, 342);
+            Controls.Add(txthipo);
+            Controls.Add(lblhipo);
             Controls.Add(txtbase);
             Controls.Add(txtaltura);
             Controls.Add(buttonCalcular);
             Controls.Add(lblbase);
             Controls.Add(lblaltura);
-            Name = "_07";
-            Text = "_07";
-            Load += _07_Load;
+            Name = "_13";
+            Text = "_13";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox txtperimetro;
-        private TextBox txtarea;
-        private Label lblperimetro;
-        private Label lblarea;
+        private TextBox txthipo;
+        private Label lblhipo;
         private TextBox txtbase;
         private TextBox txtaltura;
         private Button buttonCalcular;

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace appFP_NET.secuenciales
 {
-    public partial class _07 : Form
+    public partial class _13 : Form
     {
-        public _07()
+        public _13()
         {
             InitializeComponent();
         }
@@ -22,16 +22,9 @@ namespace appFP_NET.secuenciales
             int altura = int.Parse(txtaltura.Text);
             int bas = int.Parse(txtbase.Text);
 
-            double area = altura * bas;
-            double perimetro = 2 * (altura + bas);
+            double hipo = Math.Sqrt((altura * altura) + (bas * bas));
 
-            txtarea.Text = area.ToString("0.00");
-            txtperimetro.Text = perimetro.ToString("0.00");
-        }
-
-        private void _07_Load(object sender, EventArgs e)
-        {
-
+            txthipo.Text = hipo.ToString("0.00");
         }
     }
 }
