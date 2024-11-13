@@ -15,8 +15,8 @@
             int mujeres = int.Parse(txtMujeres.Text);
 
             int total = varones + mujeres;
-            double pVarones = varones * 100 / total;
-            double pMujeres = mujeres * 100 / total;
+            double pVarones = (double)varones * 100 / total;
+            double pMujeres = (double)mujeres * 100 / total;
 
             lblPvarones.Text = string.Format("{0:0.00} %", pVarones);
             lblPmujeres.Text = string.Format("{0:0.00} %", pMujeres);
