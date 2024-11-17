@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txtperimetro = new TextBox();
-            txtarea = new TextBox();
             lblperimetro = new Label();
             lblarea = new Label();
             txtbase = new TextBox();
@@ -37,25 +35,9 @@
             buttonCalcular = new Button();
             lblbase = new Label();
             lblaltura = new Label();
+            txtperimetro = new TextBox();
+            txtarea = new TextBox();
             SuspendLayout();
-            // 
-            // txtperimetro
-            // 
-            txtperimetro.Location = new Point(163, 219);
-            txtperimetro.Margin = new Padding(3, 4, 3, 4);
-            txtperimetro.Name = "txtperimetro";
-            txtperimetro.ReadOnly = true;
-            txtperimetro.Size = new Size(102, 27);
-            txtperimetro.TabIndex = 51;
-            // 
-            // txtarea
-            // 
-            txtarea.Location = new Point(163, 163);
-            txtarea.Margin = new Padding(3, 4, 3, 4);
-            txtarea.Name = "txtarea";
-            txtarea.ReadOnly = true;
-            txtarea.Size = new Size(102, 27);
-            txtarea.TabIndex = 50;
             // 
             // lblperimetro
             // 
@@ -124,6 +106,24 @@
             lblaltura.TabIndex = 44;
             lblaltura.Text = "Altura";
             // 
+            // txtperimetro
+            // 
+            txtperimetro.Location = new Point(163, 219);
+            txtperimetro.Margin = new Padding(3, 4, 3, 4);
+            txtperimetro.Name = "txtperimetro";
+            txtperimetro.ReadOnly = true;
+            txtperimetro.Size = new Size(102, 27);
+            txtperimetro.TabIndex = 51;
+            // 
+            // txtarea
+            // 
+            txtarea.Location = new Point(163, 163);
+            txtarea.Margin = new Padding(3, 4, 3, 4);
+            txtarea.Name = "txtarea";
+            txtarea.ReadOnly = true;
+            txtarea.Size = new Size(102, 27);
+            txtarea.TabIndex = 50;
+            // 
             // _07
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -146,9 +146,6 @@
         }
 
         #endregion
-
-        private TextBox txtperimetro;
-        private TextBox txtarea;
         private Label lblperimetro;
         private Label lblarea;
         private TextBox txtbase;
@@ -156,5 +153,7 @@
         private Button buttonCalcular;
         private Label lblbase;
         private Label lblaltura;
+        private TextBox txtperimetro;
+        private TextBox txtarea;
     }
 }
